@@ -52,3 +52,13 @@ Para replicar este projeto, você pode criar um "fork" do repositório:
 3. Clone o repositório para sua máquina com o seguinte comando:
    ```bash
    git clone https://github.com/seu-usuario/get_data_cvm.git
+
+### 3. Dependências
+Abaixo estão as dependências necessárias para rodar o projeto:
+```bash
+   pandas==1.5.3
+   requests==2.31.0
+```
+
+## Contribuições
+Sinta-se à vontade para abrir issues ou enviar PRs para melhorias no código!
