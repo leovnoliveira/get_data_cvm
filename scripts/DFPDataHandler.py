@@ -3,7 +3,7 @@ import zipfile
 import requests
 import pandas as pd
 
-class CVMDataHandler:
+class DFPDataHandler:
 
     def __init__(self, start_year=2010, end_year=2025):
 
@@ -78,11 +78,6 @@ class CVMDataHandler:
     def get_data(self):
         return self.data
 
-# Usage
-handler = CVMDataHandler(start_year=2020, end_year=2025)
-handler.download_data()
-handler.extract_data()
-handler.clean_data()
-unique_companies = handler.get_unique_companies()
-print(unique_companies)
+
+
 
